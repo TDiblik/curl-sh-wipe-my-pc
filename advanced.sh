@@ -8,7 +8,7 @@ fi
 disks=$(lsblk -o NAME -npl)
 
 perform_wipe() {
-  sudo dd if=/dev/urandom of=$1 bs=4M status=progress
+  sudo dd if=/dev/urandom of=$1 bs=4M status=none
 }
 
 for disk in $disks; do
