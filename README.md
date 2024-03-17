@@ -1,6 +1,6 @@
 # Why?
 
-I was wondering whether I could do a whole lot of damage in a short span of time after gaining access to a linux server, that could go unnoticed and be unstoppable using CTRL-C.
+I was wondering whether I could do a whole lot of damage in a short span of time after gaining access to a linux server, that could go unnoticed and be unstoppable using CTRL-C. As it turns out, I could, [wanna see it in action? (CZ only)](https://youtu.be/Kg3er4F77OY)
 
 # Usage
 
