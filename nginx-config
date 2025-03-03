@@ -1,15 +1,7 @@
 server {
-        listen 443 ssl;
-        listen [::]:443 ssl;
+        listen 22827;
 
-        server_name curl-sh-wipe-my-pc.tomasdiblik.cz;
-
-        ssl_certificate /etc/letsencrypt/live/curl-sh-wipe-my-pc.tomasdiblik.cz/fullchain.pem;
-        ssl_certificate_key /etc/letsencrypt/live/curl-sh-wipe-my-pc.tomasdiblik.cz/privkey.pem;
-        include /etc/letsencrypt/options-ssl-nginx.conf;
-        ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
-
-        root /www/curl-sh-wipe-my-pc;
+        root /app/curl-sh-wipe-my-pc;
 
         index advanced.sh;
         location / {
